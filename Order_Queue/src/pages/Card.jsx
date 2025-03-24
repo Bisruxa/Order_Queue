@@ -17,7 +17,7 @@ function Card({ image, title, price, onAddToOrder }) {
 
   const handleAddToOrder = () => {
     setShowQuantityControls(true);
-    onAddToOrder({ image, title, price, quantity });
+    onAddToOrder({ image, title, price,quantity });
   };
 
   return (

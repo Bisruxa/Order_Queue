@@ -1,7 +1,7 @@
 // App.js or your main component
 import React from "react";
-import { OrderProvider } from "./pages/OrderContext"; // Import the context provider
-import Home from "./pages/Home"; // Your Home component
+import { OrderProvider } from "./pages/OrderContext"; 
+import Home from "./pages/Home"; 
 
 function App() {
   return (
